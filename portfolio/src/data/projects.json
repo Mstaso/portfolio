@@ -1,0 +1,27 @@
+[
+    {
+        "title" : "Course Matcher",
+        "description" : "I built Course Matcher to help coding bootcamp students like my self, find a job after graduating.  The idea behind the app is for a user to match with a business by taking the courses a business has flagged.  Once one or more of the courses are complete, the user can then match with the business and gain a match percentage based on how many courses the user completed.  I used the Coursera API to generate 1,000 instances of courses and created filters for category and subcategory",
+        "tools" : "Javascript, React, Redux, CSS, Ruby, Rails, PostgreSQL",
+        "demo" : "https://drive.google.com/file/d/1uGwU6CA4_Ixx6ivQScLeifQSA7_5nWd4/view",
+        "code" : "https://github.com/Mstaso/FinalProject"
+
+    },
+    {
+        "title" : "Malay" ,
+        "description" : "Platform for discovering and sharing home decor and furniture.  The app allows users to search through different posts and save them to their profile.  Users can also comment on posts and create their own.",
+        "tools" : "Javascript, React, SQLite, CSS, Ruby, Rails",
+        "demo" : "https://drive.google.com/file/d/1bTbJl8ZnH6X3ivhUUy4NVIS8Pm3KtuLc/view",
+        "code" : "https://github.com/Mstaso/Maly"
+
+    },
+    {
+        "title" : "Bruno's Treats",
+        "description" : "Dog products E-commerce site named after my dog.  Allows users to browse and purchase products.  Used cookies to persist user information and store it within sessions to keep users logged in and improve user experience.",
+        "tools" : "Ruby, Rails, Bootstrap, CSS",
+        "demo" : "https://drive.google.com/file/d/1uOsWYCatc0lEQU-708aerq_m4bU68ZqJ/view",
+        "code" : "https://github.com/maxcroy1/dog_store"
+
+    }
+
+]

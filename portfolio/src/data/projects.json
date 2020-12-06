@@ -2,7 +2,7 @@
     {
         "title" : "Course Matcher",
         "image" : "https://i.ibb.co/qkG9N1n/course-matcher.png",
-        "description" : "Course Matcher helps coding bootcamp students, like myself, find a job after graduating.  The idea behind the app is for a user to match with a business by taking the courses a business has flagged.  Once one or more of the courses are complete, the user can then match with the business and gain a match percentage based on how many courses the user completed.  I used the Coursera API to generate 1,000 instances of courses and created filters for category and subcategory",
+        "description" : "Course Matcher helps coding bootcamp students, like myself, find a job after graduating.  The idea behind the app is for a user to match with a business by taking the courses a business has flagged.  Once one or more of the courses are complete, the user can then match with the business and gain a match percentage based on how many courses the user completed.  I used the Coursera API to generate 1,000 instances of courses and created filters for category and subcategory.",
         "tools" : ["Javascript", "React", "Redux", "CSS", "Ruby", "Rails", "PostgreSQL"],
         "demo" : "https://drive.google.com/file/d/1uGwU6CA4_Ixx6ivQScLeifQSA7_5nWd4/view",
         "code" : "https://github.com/Mstaso/FinalProject",

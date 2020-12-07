@@ -11,9 +11,104 @@
 body {
   margin: 0;
   /* place-items: center; */
-	/* background: #222; */
+  /* background: #222; */
+  /* background: #282931; */
+  
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
+  font-weight: 400;
+  background: whitesmoke;
+}
+
+.title {
+  color: white;
+}
+
+.home-hero {
+height: 100vh;
+background-image: url("https://images.unsplash.com/photo-1563301780-c5566f624e81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+background-size: cover;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.about {
+  /* height: 30vh;
+  width: 30vh;
+  position: relative;
+  left: 3em; */
+  background-color: rgba(73, 72, 72, 0.6);
+  margin: auto;
+  /* width: 50%; */
+  width: 45vh;
+  /* border: 3px solid green; */
+  padding: 10px;
+  top: 15em;
+  position: relative;
+  border-radius: 10px;
+  
+}
+
+.about-img {
+  height: 15vh;
+  width: 15vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.about h1 {
+  color: white;
+  text-align: center;
+}
+
+.about-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .75em 2.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  color: white;
+  cursor: pointer;
+  /* display: inline-block; */
+
+
+  /* background: none; */
+}
+
+.about-toggle:checked ~ p{
+display: block;
+}
+
+.about-toggle {
+  display: none;
+}
+
+.about-toggle-label {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .75em 2.5em;
+  text-transform: uppercase;
+  border: 2px solid white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+}
+.about p {
+  color: white;
+  display: none;
 }
 
 img {
@@ -49,6 +144,7 @@ img {
   flex-wrap: wrap;
   margin: 5em auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
   
 }
 
@@ -162,25 +258,10 @@ img {
 }
 
 
-/* .home-hero {
-  height: 200vh;
-  object-fit: cover;
-  width: 1600px;
-  height: 1000px;
-  padding: 40em 0; 
-  top: 50px; 
-  background-image: url("https://images.unsplash.com/photo-1606510165704-f874e3e8f99d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80");
-  background-color: #333;
-  background-blend-mode: multiply;
-  background-size: cover;
-  display: grid;
-  place-items: center;
-} */
-
 /* nav style starts here */
 
 header {
-  background: var(--background);
+  background: rgba(73, 72, 72, 0.6);
   text-align: center;
   position: fixed;
   z-index: 999;
@@ -193,7 +274,7 @@ header {
    text-align: left;
    top: 100%;
    left: 0;
-   background: var(--background);
+   background:rgba(73, 72, 72, 0.6);
    width: 100%;
    transform: scale(1, 0);
    transform-origin: top;
@@ -221,7 +302,7 @@ header {
  }
 
  nav a:hover {
-   color: #000
+   color: var(--background);
  }
 
 .nav-toggle:checked ~ nav {
@@ -259,7 +340,7 @@ header {
   width: 2em;
   border-radius: 2px;
   position: relative;
-
+  color: white;
 }
 
 .nav-toggle-label span::before,
@@ -288,6 +369,7 @@ header {
 
   .title {
     grid-column: 2 / span 1;
+    color: white;
   }
 
   nav {
@@ -318,7 +400,7 @@ header {
     content: '';
     display: block;
     height: 5px;
-    background: black;
+    background: white;
     position: absolute;
     top: -.75em;
     left: 0;
@@ -424,7 +506,7 @@ position: relative;
 
   }
 
-  /* desktop css for tool list (languages) */
+  /* desktop css for tool list () */
 
   .tool-list {
     justify-content: center;
@@ -459,3 +541,4 @@ position: relative;
   height: 1000px;
   background-color: blue;
 } */
+

@@ -28,6 +28,7 @@ class Project extends React.Component {
                       {/* <a target = "_blank" rel="noopener noreferrer" href = {this.props.project.demo}>Demo</a> */}
                   </div>
                   <ul className="tool-list">{tools}</ul>
+                  
             </div>
         )
     }

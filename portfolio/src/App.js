@@ -11,9 +11,14 @@ function App() {
     <div className="App">
       <meta name='viewport' content='width=device-width, initial-scale=1.0'/> 
       <Navbar />
-      <About />    
+      <About />
+      <div class="divider">
+        <h1>Projects</h1>
+        </div>    
       <Projectcontainer />
-     
+      <div class="divider">
+        <h1>Contact</h1>
+        </div>
       <Form />
 
       

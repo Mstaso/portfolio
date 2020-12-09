@@ -4,10 +4,6 @@ import Form from './components/form';
 import About from './components/about';
 import Projectcontainer from './containers/projectcontainer'
 
-const github = require('./images/github.png')
-
-const linkedin = require('./images/linkedin.png')
-
 function App() {
 
   return (

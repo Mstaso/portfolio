@@ -17,7 +17,16 @@ body {
 	font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   background: whitesmoke;
+  scroll-behavior: smooth; 
 }
+
+.app {
+  scroll-behavior: smooth; 
+}
+
+html {
+  scroll-behavior: smooth;
+  }
 
 .title {
   color: white;
@@ -67,23 +76,7 @@ background-position: center;
   /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
-.about-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: .75em 2.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 2px solid white;
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  color: white;
-  cursor: pointer;
-  /* display: inline-block; */
 
-
-  /* background: none; */
-}
 
 .about-toggle:checked ~ p{
 /* display: block; */
@@ -228,11 +221,11 @@ img {
 
 .project-button:hover {
   /* background: lightslategray; */
-  background: darkslategray;
-  color: var(--background);
+  background: rgb(44, 51, 71);
   /* color: black; */
-  transform: translateY(-5px);
+  transform: translateY(-8px);
   box-shadow: 0 5px 5px gray;
+  
   /* box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2); */
 
 }
@@ -296,7 +289,7 @@ img {
 /* nav style starts here */
 
 header {
-  background: rgba(73, 72, 72, 0.6);
+  background: transparent;
   text-align: center;
   position: fixed;
   z-index: 999;
@@ -309,12 +302,20 @@ header {
    text-align: left;
    top: 100%;
    left: 0;
-   background:rgba(73, 72, 72, 0.6);
+   background: transparent;
    width: 100%;
    transform: scale(1, 0);
    transform-origin: top;
    transition: transform 400ms ease-in-out;
  }
+
+ .nav-scrolled {
+  /* --text: #333;
+  --text-inverse: #f4f4f4; */
+  background: rgb(44, 51, 71);
+  /* box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2); */
+  /* position: relative; */
+}
  
  nav ul {
    margin: 0;
@@ -454,17 +455,63 @@ header {
 
 /* form css */
 
-.form {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-  overflow: hidden;
-  width: 80%;
-  max-width: 300px;
-  background-color: white;
+.contact-form {
+  width: 60%;
+  margin: 4em auto;
+  max-width: 35rem;
+  text-align: center;
 }
 
+input {
+  width: 100%;
+  display: block;
+  margin: .2em auto;
+  outline: none;
+  padding: .7em;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.send-btn {
+  font-family: 'roboto', 'Helvetica';
+  font-size: 90%;
+  display: inline-block;
+  color: white;
+  background: slategray;
+  /* background: $main-color; */
+  width: 5rem;
+  padding: .5em;
+  border: none;
+  transition: all .2s;
+  border-radius: 10px;
+}
+
+.send-btn:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    background: rgb(44, 51, 71);
+    box-shadow: 0 5px 5px gray;
+  }
+
+  textarea {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 100%;
+    height: 15rem;
+    outline: none;
+    padding: .7em;
+    text-align: left;
+    line-height: 1.5em;
+    resize: none;
+    
+  }  
+  
+
+
+
+
+
+/* 
 
 .form-item {
   display: flex;
@@ -502,18 +549,18 @@ position: relative;
   left: 0;
   bottom: 0;
   height: 1px;
-  /* background: rgba(0, 0, 0, 0.1); */
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .subject-item {
-  /* border-radius: 50px; */
-  /* width: 80%; */
+  border-radius: 50px;
+  width: 80%;
 }
 .form-button {
   background: var(--background);
   color: white;
   padding: 1.25em 2em;
-}
+} */
 
 @media only screen and (min-width: 550px) {
   .form {

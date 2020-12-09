@@ -3,7 +3,6 @@ import React from 'react'
 
 class Project extends React.Component {
     render() {
-        console.log(this.props)
         let tools = this.props.project.tools.map(tool => <li class="tool">  {tool} </li>)
         return(
             <div class="project-card">

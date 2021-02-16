@@ -14,13 +14,13 @@ class Project extends React.Component {
                 <div className = "project-buttons">
                     <a
                       target = "_blank"
-                      rel="noopener noreferrer"
+                     
                       class="project-button"
                       href = {this.props.project.code}
                       >Code</a>
                     <a 
                       target = "_blank"
-                      rel="noopener noreferrer"
+                
                       class="project-button"
                       href={this.props.project.demo}
                         > Demo </a>

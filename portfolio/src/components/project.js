@@ -18,13 +18,21 @@ class Project extends React.Component {
                       class="project-button"
                       href = {this.props.project.code}
                       >Code</a>
-                    <a 
+                      {this.props.project.site ? 
+                      <a 
+                      target = "_blank"
+                
+                      class="project-button"
+                      href={this.props.project.site}
+                        > Site </a> 
+                        :
+                        <a 
                       target = "_blank"
                 
                       class="project-button"
                       href={this.props.project.demo}
                         > Demo </a>
-                      {/* <a target = "_blank" rel="noopener noreferrer" href = {this.props.project.demo}>Demo</a> */}
+                        }
                   </div>
                   <ul className="tool-list">{tools}</ul>
                   

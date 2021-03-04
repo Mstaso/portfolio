@@ -23,9 +23,7 @@ class About extends React.Component {
               <label for="about-toggle" class="about-toggle-label">
                   <span>About</span>
               </label>
-              <p>I'm a software engineer - creating useful, innovative and responsive apps is what I love to do.  After years of working on the consumer-facing side of tech, I pivoted and began learning Javascript, React, Ruby, Rails, CSS, HTML, Redux, React through the Flatiron School. When I'm not coding, you can find me playing basketball, chess and Settlers of Catan.</p>
-              {/* <button class="about-btn" onClick={this.aboutHandler}> About </button> */}
-                
+              <p>I'm a software engineer - creating useful, innovative and responsive apps is what I love to do.  After years of working on the consumer-facing side of tech, I pivoted and began learning Javascript, React, Redux, Ruby, Rails, CSS, HTML through the Flatiron School. When I'm not coding, you can find me playing basketball, chess or Settlers of Catan.</p>
               
             </div>
             </div>

@@ -1,12 +1,23 @@
 [
     {
         "title" : "Course Matcher",
-        "image" : "https://i.ibb.co/qkG9N1n/course-matcher.png",
+        "image" : "https://i.ibb.co/SsCyKT3/cm2.png",
         "description" : "Course Matcher helps coding bootcamp students, like myself, find a job after graduating.  The idea behind the app is for a user to match with a business by taking the courses a business has flagged.  Once one or more of the courses are complete, the user can then match with the business and gain a match percentage based on how many courses the user completed.  I used the Coursera API to generate 1,000 instances of courses and created filters for category and subcategory.",
         "tools" : ["JavaScript", "React", "Redux", "CSS", "Ruby", "Rails", "PostgreSQL"],
         "demo" : "https://drive.google.com/file/d/1uGwU6CA4_Ixx6ivQScLeifQSA7_5nWd4/view",
         "code" : "https://github.com/Mstaso/FinalProject",
+        "site": "https://course-matcher-front.herokuapp.com/home",
         "id" : 1
+
+    },
+    {
+        "title" : "Shoppies",
+        "image" : "https://i.ibb.co/jL6NVzH/shoppies.png",
+        "description" : "Movie app that utilizes the omdb api for users to browse and nominate movies",
+        "tools" : ["React", "JavaScript", "CSS"],
+        "site": "https://newshoppiesapp.herokuapp.com/",
+        "code" : "https://github.com/Mstaso/shop",
+        "id" : 2
 
     },
     {
@@ -16,7 +27,7 @@
         "tools" : ["JavaScript", "React", "SQLite", "CSS", "Ruby", "Rails"],
         "demo" : "https://drive.google.com/file/d/1bTbJl8ZnH6X3ivhUUy4NVIS8Pm3KtuLc/view",
         "code" : "https://github.com/Mstaso/Maly",
-        "id" : 2
+        "id" : 3
 
     },
     {
@@ -26,17 +37,6 @@
         "tools" : ["Ruby", "Rails", "Bootstrap", "CSS", "SQLite"],
         "demo" : "https://drive.google.com/file/d/1uOsWYCatc0lEQU-708aerq_m4bU68ZqJ/view",
         "code" : "https://github.com/maxcroy1/dog_store",
-        "id" : 3
-
-    },
-
-    {
-        "title" : "Shoppies",
-        "image" : "https://i.ibb.co/jL6NVzH/shoppies.png",
-        "description" : "Movie app that utlizes the omdb api for users to browse and nominate movies",
-        "tools" : ["React", "JavaScript"],
-        "site": "https://newshoppiesapp.herokuapp.com/",
-        "code" : "https://github.com/Mstaso/shop",
         "id" : 4
 
     }

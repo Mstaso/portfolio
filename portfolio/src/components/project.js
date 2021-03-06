@@ -12,15 +12,9 @@ class Project extends React.Component {
                     <p class="card-text">{this.props.project.description}</p>
                 </div>
                 <div className = "project-buttons">
-                    <a
-                      target = "_blank"
-                     
-                      class="project-button"
-                      href = {this.props.project.code}
-                      >Code</a>
+                    <a target = "_blank" class="project-button" href = {this.props.project.code}>Code</a>
                       {this.props.project.site ? 
-                      <a 
-                      target = "_blank"
+                      <a target = "_blank"
                 
                       class="project-button"
                       href={this.props.project.site}

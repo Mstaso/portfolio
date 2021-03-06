@@ -120,7 +120,7 @@ margin-right: auto; */
   top: -21px;
   width: 100%;
   height: 5em;
-  background-color: #2b2b2b;
+  background-color: #424242;
 }
 
 .divider h1 {
@@ -137,9 +137,6 @@ img {
 }
 
 .project-section {
-  /* position: relative;  */
-  /* top: 100px; */
-  /* border: 2px solid black; */
   text-align: center;
   margin-bottom: 12em;
 
@@ -147,14 +144,6 @@ img {
 
 /* project card styling */
 .project-card {
-  /* top: -40px;
-  position: relative;
-  display: flex;
-  width: 100%;
-  height: 12.5em;
-  border: 2px solid black;
-  background-color: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.35) */
   width: 70%;
   max-width: 60rem;
   padding: 1em;
@@ -253,11 +242,8 @@ header {
  }
 
  .nav-scrolled {
-  /* --text: #333;
-  --text-inverse: #f4f4f4; */
   background: rgb(44, 51, 71);
-  /* box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2); */
-  /* position: relative; */
+
 }
  
  nav ul {
@@ -285,7 +271,6 @@ header {
  }
 
 .nav-toggle:checked ~ nav {
-  /* display: block; */
   transform: scale(1,1);
 }
 
@@ -449,62 +434,6 @@ input {
     resize: none;
     
   }  
-  
-
-
-
-
-
-/* 
-
-.form-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-input,
-.form-button {
-font-family: inherit;
-text-transform: uppercase;
-font-weight: 800;
-font-size: 10px;
-letter-spacing: 1.2px;
-border: 0;
-}
-
-.form-input {
-  padding: 1.5em;
-  
-}
-
-.form-input:focus::placeholder {
-  color: var(--background);
-  opacity: 0.85;
-}
-
-.form-item:first-of-type {
-position: relative;
-}
-
-.form-item:first-of-type::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  height: 1px;
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.subject-item {
-  border-radius: 50px;
-  width: 80%;
-}
-.form-button {
-  background: var(--background);
-  color: white;
-  padding: 1.25em 2em;
-} */
 
 @media only screen and (min-width: 550px) {
   .form {

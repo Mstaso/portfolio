@@ -24,9 +24,10 @@
         "title" : "Malay" ,
         "image" : "https://i.ibb.co/sJ9YffG/malay.png",
         "description" : "Interactive platform for discovering and sharing home decor and furniture.  The app allows users to search through different posts and save them to their profile.  Users can also leave comments and create their own posts.",
-        "tools" : ["JavaScript", "React", "SQLite", "CSS", "Ruby", "Rails"],
+        "tools" : ["JavaScript", "React", "PostgreSQL", "CSS", "Ruby", "Rails"],
         "demo" : "https://drive.google.com/file/d/1bTbJl8ZnH6X3ivhUUy4NVIS8Pm3KtuLc/view",
         "code" : "https://github.com/Mstaso/Maly",
+        "site" : "https://malay-frontend.herokuapp.com/",
         "id" : 3
 
     },

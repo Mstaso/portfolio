@@ -19,7 +19,7 @@ class Form extends React.Component {
             class="contact-form"
           >
            
-           <h3>Get In Touch</h3>
+           <h3 id="get-in-touch">Get In Touch</h3>
             <input type="text" name="name" placeholder="name" class="name"/>
             <input type="email" name="email" placeholder="email" class="email"/>
         

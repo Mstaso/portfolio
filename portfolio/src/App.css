@@ -115,22 +115,78 @@ margin-right: auto; */
 .about label {
   margin-bottom: 20px;
 }
+
+/* Skills Section */
+
+.skills {
+  height: auto;
+  margin: 10px auto;
+  max-width: 1140px;
+}
+
+.skills-header:after {
+  
+    display: block;
+    height: 2px;
+    background-color: #000000;
+    content: ' ';
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.col {
+	display: block;
+	float:left;
+  margin: 1% 0 1% 1.6%;
+  text-align: center;
+}
+
+.col:first-child { margin-left: 0; }
+
+.span-1-of-2 {
+	width: 49.2%;
+}
+
+.span-1-of-8 {
+  width: 11.1%; 
+  color: white;
+
+}
+
+.blue {
+  background-color: rgb(99, 114, 160);
+}
+
+.black {
+  background-color: #3a3a3a;
+}
 .divider{
   position: relative;
   top: -21px;
   width: 100%;
-  height: 5em;
   background-color: #424242;
+  padding: 10px;
 }
 
 .divider h1 {
   color: white;
   text-align: center;
-  position: relative;
-  top: 20px;
 }
 
-
+#contact {
+  text-align: center;
+  background-color: #424242;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -543,5 +599,18 @@ footer img {
   }
   .about p {
     font-size: 70%;
+  }
+
+  .col:first-child { margin-left: 10%; }
+  .span-1-of-8 {
+    /* margin: 10px; */
+    width: 80%; 
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    display: none;
   }
 }

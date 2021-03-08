@@ -1,7 +1,8 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Form from './components/form';
-import About from './components/about';
+import Home from './components/home';
+import Skills from './components/skills';
 import Projectcontainer from './containers/projectcontainer'
 
 
@@ -12,12 +13,14 @@ function App() {
       <meta name='viewport' content='width=device-width, initial-scale=1.0'/> 
       <div id="home"></div>
       <Navbar />
-      <About />
+      <Home />
       <div id="project" class="divider">
         <h1>Projects</h1>
         </div>    
       <Projectcontainer />
-      <div id="contact" class="divider">
+
+
+      <div id="contact">
         <h1>Contact</h1>
         </div>
       <Form />

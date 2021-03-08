@@ -13,8 +13,9 @@ class Navbar extends React.Component{
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#project">Projects</a></li>
-                        <li><a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vST79NS4bBlF3UycWhGHHzGYx2Vikgd9qFX9j0EUi4h4t8mTipY5XEmDb0mkQ6lD-Sgqcjuj3QYZasY/pub?fbclid=IwAR0gkC5RspMKGJL6mhqtifb7isTxVjpAWsAjXjUn3N3gIPc8CLHHjdX6FFY">Resume</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a target="_blank" href="https://drive.google.com/file/d/15KqCEJMAe5ZoqTbOAjc-y-dFgfP2NOCw/view?usp=sharing">Resume</a></li>
+                        <li><a href="#get-in-touch">Contact</a></li>
                     </ul>
                 </nav>
                 <label for ="nav-toggle" class="nav-toggle-label">
